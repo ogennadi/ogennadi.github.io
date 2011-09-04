@@ -3,24 +3,61 @@
   <head>
     <title>Oge Nnadi</title>
 	<meta content='The personal home page of Oge Nnadi.' property='description'> 
-    <style type="text/css" media="screen"></style>
+    <style type="text/css" media="screen">
+	body {
+		background-color: black;
+		color: white;
+		font-family: Helvetica, sans-serif;
+	}
+	
+	.about {
+		margin-top: 2.5em;
+		margin-bottom: 2.5em;
+		float: left;
+		width: 100em;
+	}
+	
+	.about p {
+		width: 38em;
+	}
+	
+	.contact, .projects {
+		float: left;
+		width: 19em;
+
+	}
+		
+	.contact p, .projects p {
+		margin-left: 1em;
+	}
+	.key {
+		padding-right: 0.5em;
+		font-weight: bold;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	</style>
   </head>
   
   <body>
       <div id="content">
-        <div id="about">
+        <div class="about">
           <h1>Oge Nnadi</h1>
-          <h2>I'm a classically trained computer scientist based in Lagos. Contact me for Web and IT consulting, or if you just want to buy me a beer.</h2>
+          <p>I'm a classically trained computer scientist based in Lagos. Contact me for Web and IT consulting, or if you just want to buy me a beer.</p>
         </div>
 
-		 <div id="contact">
+		 <div class="contact">
           <h2>Contact</h2>
 		  <a href="mailto:oge@nnadi.org"><p><span class='key'>Email:</span><span class='value'>oge@nnadi.org</span></p></a>
 		  <a href="http://twitter.com/#!/ogennadi"><p><span class='key'>Twitter:</span><span class='value'>@ogennadi</span></p></a>
 		  <a href="https://github.com/ogennadi"><p><span class='key'>Github:</span><span class='value'>ogennadi</span></p></a>
         </div>
 
-		<div id="projects">
+		<div class="projects">
           <h2>Projects</h2>
 		  <a href="http://nairaperminute.com"><p><span class='key'>Naira/Minute:</span><span class='value'>Find out how many naira per minute it costs to use mobile phones in Nigeria.</span></p></a>
         </div>
